@@ -1,0 +1,18 @@
+.cardimage {
+  height: 110px;
+}
+.card-button {
+  background-color: rgb(204, 0, 255);
+  border-color: black;
+  color: black;
+}
+body {
+  background-image: linear-gradient(to bottom right, rgb(19, 71, 255), rgb(184, 0, 238));
+}
+.active {
+  background-color: black;
+}
+.card {
+  background-color: black;
+  color: white;
+}
