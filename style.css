@@ -1,17 +1,19 @@
 .cardimage {
-  height: 110px;
+  height: 200px;
+  width: 225px;
 }
-.card-button {
-  background-color: rgb(204, 0, 255);
-  border-color: black;
+.btn {
+  background-color: yellow;
   color: black;
+  border-color: yellow;
 }
 body {
-  background-image: linear-gradient(to bottom right, rgb(19, 71, 255), rgb(184, 0, 238));
+  background-image: linear-gradient(to bottom right, orange, red);
 }
-.active {
-  background-color: black;
+.nav-link > li.active > a{
+    color: red;
 }
+
 .card {
   background-color: White;
   color: Black;
@@ -19,4 +21,43 @@ body {
 .cardpad {
   margin-left: 25px;
   margin-bottom: 25px;
+}
+.about {
+  height: 25%;
+  width: 25%;
+}
+.nav-link {
+  color: white;
+}
+.row {
+    margin-left: 10%;
+}
+h2 {
+  padding-bottom: 2%;
+}
+.about-me {
+  color: white;
+
+}
+.right {
+  float: right;
+}
+.morb {
+  height: 85%;
+  width: 85%
+}
+.future {
+  color: white;
+}
+.message {
+  color: green;
+}
+.insta {
+  color: hotpink;
+}
+.chat {
+  color: yellow;
+}
+.discord {
+  color: darkblue;
 }
